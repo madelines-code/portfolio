@@ -1,0 +1,148 @@
+
+* {
+  margin: auto;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.menu {
+  padding: 10px 15px;
+  top: 0;
+  z-index: 1;
+  /*position: fixed;*/
+  display: flex;
+  background-color: rgb(53, 54, 54);
+  color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif; 
+  font-size: 18px;
+}
+nav a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 20px 5px;
+}
+
+.logo {
+  align-self: flex-start;
+}
+
+h2 {
+  padding: 0px 0px 10px 0px;
+}
+p {
+  text-size: 16px;
+  line-height: 1.4;
+}
+h3 {
+  padding: 10px;
+}
+.aboutus {
+  text-align: center;
+}
+.mission {
+  background-image: url("https://lh3.googleusercontent.com/-gABRglaIlEzlFIQQD7aWEeZP_3NVNyl0G_T6ptO5gX2lBmI1BgytY4vE0CNNMwb6BVDkUdnCY4thVbN6xRRbhliz86D6G5pps9kX1A3rztH-TGTtU5IOWcvJoNNFmD6aLPelE-8WIK5w7GfQnJ-CtlGJnCJgDA3UEgkLOOA7Eg93vq_nZwSoCFJUlggacnGkVS7oePS7MCwr2GewxBdt65XTHNdlDJbVHnhXOaG30wv4ZsAoCgow7Bipuv3Q4wogDjwA6vrYOlKxlbk2HMmAhDcEWKC2etpYTItXZYy8d-ckIw-BWYKIO0yssZfuZcnO-PXsjm_rae5_sWtFJU8Ct3ePm78AlO0l0lJkEuu1Wxzl5nRqGbbnoerSdftru01fwdPRLxqoUykvU7R2kOEHW3317auXYeluxSizQb-_57008rz8hIMYgGc5QIS0sZrAD0KhJWk5_nBtWGpaSlbWiEhSvtafTGvil8xXYqH0h_8McDQ9JQzKabAg1XdKaeYYjjPN1ibPOr1lvk4GwV-BNWpMFQF48jptZMtzWKPb1SwqBhcr0GH51mpBf9_CSMNE8p70Q1solmqqDrHlxsr7W30ggRuYQfL4uIbH-o_nAExeX12BTY1TZFs53N_vAOlA-Gq1M_xrSacgZygYFdGq51ODAC0G4zXbOQRD7jGa-rvZVgUngxOAWR7ycQ-TehbNtyX7v8zTa2Op-jCNY7KcSo=w1280-h668-no?authuser=0"), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+  background-blend-mode: overlay;
+  background-size: cover;
+  padding: 70px; 
+  color: rgb(255, 255, 255)
+ }
+.madeline {
+  display: flex;
+}
+.paragraph {
+  font-family: 'Noto Sans Display', sans-serif; 
+  font-size: 16px;
+  
+}
+#backpacking {
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px;
+}
+
+#grayfont {
+  color: rgb(53, 54, 54);
+}
+
+.testimonials {
+  margin: 0px auto 0px auto;
+  background-color: rgba(232, 232, 232, .5);
+  border-radius: 5px;
+  padding: 0px 0px 20px 0px;
+}
+.testimonials h2 {
+  padding: 30px 0px 0px 0px;
+}
+
+#quotes {
+  display: table; /* keep the background color wrapped tight */
+  margin: 0px auto 0px auto;
+  background-color: rgba(159, 191, 155, .5);
+  margin: 10px auto;
+  max-width: 80%;
+  border-radius: 5px;
+  font-family: 'Noto Sans Display', sans-serif; 
+  font-size: 16px;
+  font-style: italic;
+  color: rgb(53, 54, 54);
+}
+}
+.button {
+  color: rgb(53, 54, 54);
+  background-color: rgb(180, 203, 219);
+  padding: 10px;
+  margin: 15px 0px 10px 0px;
+  border: 2px solid rgb(121, 132, 140);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+footer {
+  background-color: rgb(53, 54, 54);
+  color: white;
+  font-family: 'Josefin Sans', sans-serif !important; 
+  padding: 30px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footeritem {
+  margin: 0px 8px 0px 0px;
+}
+#emailus {
+  text-decoration: none;
+  color: white;
+  margin: 3px 0px 0px 0px;
+}
+  #emailus:hover{
+    color: rgb(160, 200, 219);
+}
+
+
+@media only screen and (max-width: 900px) {
+   .madeline {
+    flex-direction: column;
+     } 
+    #backpacking {
+      min-width: 100%;
+      min-height: 100%;  
+      object-fit: cover;
+  }
+    .column {
+     padding: 30px 15px;
+  }
+
+}

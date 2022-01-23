@@ -1,0 +1,143 @@
+
+* {
+  margin: auto;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.menu {
+  padding: 10px 15px;
+  top: 0;
+  z-index: 1;
+  /*position: fixed;*/
+  display: flex;
+  background-color: rgb(53, 54, 54);
+  color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif; 
+  font-size: 18px;
+}
+nav a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 20px 5px;
+}
+
+.logo {
+  align-self: flex-start;
+}
+
+.main {
+  display: flex;
+  background-size: cover;
+  background-image: url("https://lh3.googleusercontent.com/u8OHsbYSq2QXdj3h9oAPMxrvp3lRBq2JEPH_vZVTw0NxH6BXpYjOeCwNoVNDxAF1SqKwXoMSZpLn3oDnoW9JNqRcn5qUR-n1xi2cb8w2D9HEKEpjhpRqA2k_X5yoogpPdzsGNV30aw=w2400");
+  justify-content: center;
+}
+h1 {
+  padding: 200px 80px 250px 80px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  color: rgb(53, 54, 54);
+  align-items: center;
+  text-align: center;
+}
+.secondarybox {
+  color: rgb(53, 54, 54);
+  font-weight: 400;
+  font-size: 20px;
+  padding: 30px 80px;
+  text-align: center;
+}
+.secondarybox h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+.secondarybox p {
+  font-family: 'Noto Sans Display', sans-serif; 
+  font-size: 16px;
+}
+.button {
+  color: rgb(53, 54, 54);
+  background-color: rgb(180, 203, 219);
+  padding: 10px;
+  margin: 15px 0px 10px 0px;
+  border: 2px solid rgb(121, 132, 140);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(180, 215, 240);
+  padding: 12px;
+}
+
+#meditation {
+  text-align: center;
+  color: white;
+  padding: 30px 80px;
+  background-size: cover;
+  background-image: url("https://lh3.googleusercontent.com/A73NbLp9H92rZRIbVgLWaRvsSbajBrWIO7rUNbRrRMhDDeEnGH9X5q-n2vY8Jim-CZJ76h_dHmBDC7Xf6OL3q66Q_jNed8f4Ue62tGbrWPRcqoCcRqkDQ_y0a072V_oo-A7aqje10dUG3tQtPQkB4QuMBlHdLTKYgpQcd8tmqgtXWnag2QoUgtpVEFcHHOsj_DORU-0eWBLcfh__WXCnTmP-feuOJUmV8QilY7Etvkuyz6E7zrv6QuU-t0PySutw89IYPxN5NnyjwlkEJ4IDJzC1vJrXZWGkvklfxJYuUFRsmzaripBWIdXCzCnQGpgD9kQTg5FMp0Bn3g3Zw3YwnYsAIDLu4KJORYvs-cZJTpTy4oCi-d6FiT_jnUST1x-57PajKWo4UlvJZ5fRsCOxa6gIcwhS5gU6HQQXEGe--Co3rx8i_Jod8c-ha21TvXUe4QMt8WfnjGWr1mAU9NU4z52Bev2QMjHVoX21RaQ1wndAhNPnsGztg4xaLIpkkgrSs7FZfN7InqWxf2NfDWLsNwLgO-T-Gt5v0erJ_we7pQUECV2N8K_4ClCboDXv9RAhIRLj6EDH8MoyI1aN_0pxtcXl2wRGdu6t4cywrHOS7TCCP6vQPZOBhNeUwdjX6G2JJTiE0pv-XzWwdjZBESY6cFw9-ocPhcaVMpkoUmGSJUx8ds_muXrMhIZ-2xGZEn4iK69dwNcJhb8CFHQ7hdidxD4=w1470-h412-no?authuser=0");
+}
+#meditation p {
+  padding: 10px 0px;
+  font-family: 'Noto Sans Display', sans-serif; 
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#quoteDisplay {
+  display: table; /* keep the background color wrapped tight */
+  margin: 0px auto 0px auto;
+  padding: 20px;
+  font-size: 18px;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(53, 54, 54);
+  background-color: rgba(232, 232, 232, .5);
+  border-radius: 5px;
+  }
+footer {
+  background-color: rgb(53, 54, 54);
+  color: white;
+  font-family: 'Josefin Sans', sans-serif; 
+  padding: 30px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footeritem {
+  margin: 0px 8px 0px 0px;
+}
+#emailus {
+  text-decoration: none;
+  color: white;
+}
+  #emailus:hover{
+    color: rgb(160, 200, 219);
+}
+
+@media only screen and (max-width: 1200px) {
+  .main  h1{
+    padding: 100px 60px 120px 60px;
+    font-size: 40px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .main h1 {
+    padding: 50px 60px 50px 60px;
+    font-size: 30px;
+}
+  

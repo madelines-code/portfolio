@@ -1,101 +1,57 @@
-<DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="My first HTML page">
-    <meta name="author" content="Madeline Armstrong">
-    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
-    <title>My First Page</title> 
-  </head>
-  <body> 
-    <a href="./about.html">About</a>
-    <a href="./contact.html">Contact</a>
-    <a href="./admin/secret.html">Admin</a>
-    
-    <h1 id="top">Welcome To My Page</h1>
-    <a href="#links">Table of Contents</a>
-      <p>This is a web page.</p>
-    <h2>About This Page</h2>
-      <p>I am learning HTML by building a page</p>
-    <h3 id="typography">Sub Section 1: Typography</h3>
-      <p>h1 - h6 tage are used to display content on a page and scale down in size by importance</p>
-      <h4>H1 tage show your main content</h4>
-      <h4>H2 tags provide secondary content</h4>
-      <h4>H3 tags show less important content</h4>
-      <h4>H4 - H6 remain bold but the font size reduces</h4>
-      <h5>This is an H5</h5>
-      <h6>This is an H6</h6>
-      <p>A paragraph font size is larget than an h6</p>
-      <p><strong>Important:</strong> this <b>text</b> is really important.</p>
-      <p>You can put <em>emphasis</em> on words in <i>two</i> ways.</p>
-    <h3 id="lists">Sub Section 2: Lists</h3>  
-      <p>Elements of a webpage</p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-      <p>Things To Learn</p>
-      <ol>
-        <li>Command Line</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Ruby</li>
-      </ol>
-      <p>Concepts</p>
-      <dl>
-        <dt>Client Side Languages</dt>
-          <dd>HTML</dd>
-          <dd>CSS</dd>
-          <dd> JavaScript</dd>
-        <dt>Server Side Languages</dt>
-          <dd>Ruby</dd>
-          <dd>Java</dd>
-          <dd>C#</dd>
-      </dl>
-    <h3 id="tables">Sub Section 3: Tables</h3>
-    <table>
-      <caption>Browser Compatibility</caption>
-      <thead>
-        <tr>
-          <th>Feature</th>
-          <th>Chrome</th>
-          <th>Firefox</th>
-          <th>Safari</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Feature 1</td>
-          <td>✓</td>
-          <td>X</td>
-          <td>X</td>
-        </tr>
-        <tr>
-          <td>Feature 2</td>
-          <td>✓</td>
-          <td>✓</td>
-          <td>✓</td>
-        </tr>
-        <tr>
-          <td>Feature 3</td>
-          <td>X</td>
-          <td>X</td>
-          <td>✓</td>     
-        </tr>
-      </tbody>
-    </table>
-  <h3 id="images">Sub Section 4: Images</h3>
-  <img alt="flamingo" src="https://bit.ly/2wP2HhC"/> 
-  <br/>
-  <img alt="build diagram" src="./images/WebDev.png" width="500"/>  
-  <h3 id="links">Sub Section 5: Links</h3>
-    <a href="#top">Go To Top</a>
-    <a href="#typography">Typography</a>
-    <a href="#lists">Lists</a>
-    <a href="#tables">Tables</a>
-    <a href="#images">Images</a>
-    <a target="_blank" href="https://www.google.com/imghp">Search Images</a>
-  </body>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <title>Madeline Armstrong</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body onload="newQuote()">
+  <nav class="menu">
+    <div class="logo">
+      <img class="logo-img" src="https://lh3.googleusercontent.com/XQSnw95Cmpk1rMuIsMuWLU4yHXo0P2QnZ4I5_XeJCwl2RJG1LKyAGD2b1XJeMURIg2EDVU712vCoIhftBUTssYlin9gaMIiksscc8jsramMMT5sC-8ChLvGuFPpGQPRyuwlAOMX5fgbzv9Go2MfW6dpMdIxlR8WPcBjcSJAD15WEYRkWBx_k_3caP4oMhz_duQeVdqtysQs9Sx12edNq5oiXDTW8kjL-Zi_xH22zYg1YlXvm6we2N4TGWuU41uH-tPMg7f5mWghAXY_vlH93F5U-9bmNtcNc0yTNmaKc0z_mfH1lIe8AJEzAzZsdlCHKryqByE64U439UON34gYnco7kDh2In_yAgFFAADrwYmstWeHy9W8MUEw4saYBEQYLtHVGHN-K1hfjA9buUGH2ey1UFcU1XzXQgu3AUWP9zJj5Hp_SKsHGlV8A0NYxZWYt6N9nrr-NizlSliO6ieFKVr2oEPA1aZ2CEwhSXbXqj3QgvWaFXMicl4WFLknrbaHjz9-j6rG1tHPstTzLG1H-E_YI8WD53DdN5DDUiEEtReWFJEZotfIJ4x6HOmsPkdq3qJLtnM2n-5gNRjyJ_4XkteapYZ-r4yw15G3hgibqBAnRt39LCO0F53R7DAM3FgpFbApkft7FoC-EO32y4gdSXYL5difxjXBs41pi7bKYydANeOcvc7vrfOJFCN_n5Ok9wthowkINFIGI9oZcIM1Whn-w=w102-h71-no?authuser=0" alt="Armstrong Code Logo">
+    </div>
+    <ul class="nav-list">
+      <li class="list-item">
+      <a href="index.html">Home</a>
+      </li>
+    <li class="list-item">
+      <a href="aboutindex.html">About</a>
+    </li>
+    <li class="list-item">
+      <a href="contactindex.html">Contact</a>
+    </li>
+  </ul>
+</nav>
+  <div class="main" id="mainbox">
+     <h1 class="headertext">
+      Busyness Is Out, Simplicity Is In.
+     </h1>
+  </div>
+  <div class="secondarybox">
+    <h2>Eliminate the Chaos. Enjoy the Here and Now.</h2>
+    <p>
+      Minimalism and a peaceful aesthetic meet in brilliantly coded software. Make your life and your business function more efficiently with simply designed web-based software customized for your needs. The possibilities are endless. 
+    </p>
+    <a href="contactindex.html"><button class="button" type="button">Simplify Your Life</button></a>
+  </div>
+  <div id="meditation">
+    <h2>Meditation of the Day</h2>
+    <p>Focus on simplicity by dwelling on today's quote.</p>
+    <span><div id="quoteDisplay"> 
+      </div></span>
+  
+  <script src="simplicityQuotes.js">  </script>
+  </div>
+  <footer>
+    <p class="footeritem">Arm <strong>&#60;strong&#62;</strong> Code 	&#124;</p>
+    <p class="footeritem">Based in Salt Lake City, UT &#124;</p>
+    <a href="mailto: armstrong.madeline@gmail.com" class="footeritem" id="emailus">Email Us</a>
+  </footer>
+      
+</body>
 </html>
